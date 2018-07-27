@@ -1,0 +1,68 @@
+#title-font {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin: 20px 0px 20px 20px;
+}
+
+body, html {
+  background-image: url("../images/F-15-high.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*vertical navigation link*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 90%;
+  float: left;
+  background-color: rgba(50,50,50,0.3);
+  position: fixed;
+  overflow: auto;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+li a{
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/*white background, black text on hover*/
+li a:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+}
+
+/*clearfix*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#contact-info {
+  margin-left: 175px;
+  height: 90%;
+  width: 700px;
+  float: left;
+}
+
+#index-info {
+  margin-left: 175px;
+  height: 90%;
+  width: 700px;
+  float: left;
+}
+
+#portfolio-info {
+  margin-left: 175px;
+  height: 90%;
+  width: 700px;
+  float: left;
+}
