@@ -25,6 +25,13 @@ nav ul {
   font-weight: bold;
 }
 
+/*Interests list formatting*/
+#Interests {
+  list-style-type: circle;
+  padding: 1em 0 0.5em 1em;
+  font-family: monospace;
+  font-size: 1.25em;
+}
 li a{
   display: block;
   color: #000000;
